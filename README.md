@@ -60,7 +60,7 @@ WeatherPredictionProject/
    streamlit run app.py
 
 ## Skills Learned
-Data cleaning and preprocessing
+Data cleaning and preprocessing\n
 Regression & classification using scikit-learn
 Model evaluation (MAE, RMSE, R², accuracy)
 Web deployment using Streamlit
