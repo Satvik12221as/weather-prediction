@@ -37,7 +37,6 @@ WeatherPredictionProject/
 ├── weather_prediction.ipynb # Jupyter notebook for model training
 
 ├── models/
-
 │ ├── temperature_regressor.pkl
 │ ├── weather_classifier.pkl
 │ └── label_encoder.pkl
