@@ -33,14 +33,20 @@ The model was trained on daily weather data containing:
 
 WeatherPredictionProject/
 ├── app.py # Streamlit app
+
 ├── weather_prediction.ipynb # Jupyter notebook for model training
+
 ├── models/
+
 │ ├── temperature_regressor.pkl
 │ ├── weather_classifier.pkl
 │ └── label_encoder.pkl
+
 ├── data/
 │ └── Daily weather data.csv
+
 ├── requirements.txt
+
 └── README.md
 
 
