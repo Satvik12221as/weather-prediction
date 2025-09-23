@@ -33,7 +33,7 @@ The model was trained on daily weather data containing:
 
 WeatherPredictionProject/
 ├── app.py # Streamlit app
-├── weather_prediction.ipynb # Jupyter notebook for model training
+├── weather_prediction.py    # python notebook for model training
 ├── models/
 │ ├── temperature_regressor.pkl
 │ ├── weather_classifier.pkl
