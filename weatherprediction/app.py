@@ -18,7 +18,7 @@ st.markdown("Enter today's data to predict temperature and weather condition:")
 # User Inputs
 humidity = st.slider("Humidity (%)", 0, 100, 70)
 wind_speed = st.slider("Wind Speed (km/h)", 0.0, 15.0, 3.5 ,step=0.1)
-mean_pressure = st.slider("Mean Pressure", 950, 1100, 1010)
+mean_pressure = st.slider("Mean Pressure", 950, 1100, 1010 ,step=1)
 
 if st.button("Predict Weather"):
     input_data = np.array([[humidity, wind_speed, mean_pressure]])
